@@ -1,35 +1,25 @@
-{
-    "name": "picipepe/watch-online",
-    "description": "Ver De De Pyaar De pelicula Free online subtitulada español latino, ver Vengadores: Endgame online español Gratis",
-    "keywords": ["dependency graph", "visualize dependencies", "visualize composer"],
-    "homepage": "https://github.com/clue/graph-composer",
+﻿{
+    "name": "de/de-pyaar-de-2019-online-720p-str-eam-and-full-hindi-hd",
+    "description": "# WATCH De De Pyaar De (2019) Online Free Streaming and Full HD",
+    "homepage": "https://github.com/stream",
+    "type": "library",
     "license": "MIT",
-    "require": {
-        "php": "^5.3.6 || ^7.0",
-        "clue/graph": "^0.9.0",
-        "graphp/graphviz": "^0.2.0",
-        "jms/composer-deps-analyzer": "0.1.*",
-        "symfony/console": "^3.0 || ^2.1"
-    },
-    "require-dev": {
-        "clue/phar-composer": "^1.0",
-        "phpunit/phpunit": "^4.8.36"
-    },
+    "authors": [
+        {
+            "name": "stream",
+            "email": "stream@gmail.com",
+            "homepage": "http://hooq.top",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
-        "psr-0": { "Clue\\GraphComposer": "src/" }
-    },
-    "bin": [ "bin/graph-composer" ],
-    "extra": {
-        "phar": {
-            "bundler": "composer"
+        "psr-4": {
+            "movies123\\": "src/"
         }
     },
-    "config": {
-        "platform": {
-            "php": "5.3.6"
-        }
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
     },
-    "scripts": {
-        "build": "@php build.php"
-    }
+    "minimum-stability": "dev"
 }
